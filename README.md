@@ -1,4 +1,4 @@
-# Portafolio Personal de Isaac Andrés Mora Palma
+# Portafolio Personal de Isaac Mora
 
 **Descripción**
 
