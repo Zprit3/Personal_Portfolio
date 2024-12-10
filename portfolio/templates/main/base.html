@@ -1,0 +1,89 @@
+{% extends '_base.html' %}
+
+{% block title %}
+    Isaac Mora - Portfolio
+{% endblock %}
+
+{% block content %}
+<div class="text-center mb-4">
+          <h1 class="display-5">Hi, I'm Isaac Mora</h1>
+          <p class="lead">
+            I'm a Full Stack Developer with a passion for creativity and technical skills.
+            I'm skilled in Python and a Higher Technician in Programming Analysis.
+          </p>
+          <a href="#contact" class="btn btn-custom btn-lg">Get in Touch</a>
+        </div>
+
+        <section class="mt-5">
+          <h2 class="text-center">Featured Work</h2>
+          <p class="text-center">Here's a selection of projects I've worked on.</p>
+          <div class="text-center">
+            <a href="#projects" class="btn btn-custom">View All</a>
+          </div>
+        </section>
+
+        <section class="mt-5">
+          <h3>Featured Project</h3>
+          <div class="row align-items-center">
+            <div class="col-md-4">
+              <img
+                src="example-project.jpg"
+                alt="Featured Project"
+                class="img-fluid rounded"
+              />
+            </div>
+            <div class="col-md-8">
+              <h4>Zephyr</h4>
+              <p>A simple, elegant weather app.</p>
+              <a href="#case-study" class="btn btn-custom">View Case Study</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-5">
+          <h3>Skills</h3>
+          <div>
+            <h5>Web Development</h5>
+            <div class="mb-2">
+              <span>React</span>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%;"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="mb-2">
+              <span>Vue</span>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 60%;"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="mb-2">
+              <span>Angular</span>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 50%;"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </section>
+{% endblock %}
+
